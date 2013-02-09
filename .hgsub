@@ -1,0 +1,2 @@
+src/frontend/vendor/codemirror = [git]https://github.com/marijnh/CodeMirror.git
+
