@@ -1,0 +1,3 @@
+recursive-include pyshell/frontend *.js
+recursive-include pyshell/frontend *.css
+recursive-include pyshell/ *.txt

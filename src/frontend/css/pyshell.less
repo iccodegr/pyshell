@@ -1,0 +1,83 @@
+html {
+  height:100%;
+  overflow: hidden;
+}
+
+body {
+//background-color: #202020;
+  background-color: white;
+  height:100%;
+
+}
+
+.toolbar-cntr {
+  height:100%;
+  background-color: #202020;
+}
+
+#editor {
+  margin:0px !important;
+}
+
+#toolbar {
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: #999;
+
+    li {
+      position: relative;
+      margin: 0px;
+      padding: 15px 0px;
+      list-style: none;
+      height: 30px;
+      display: block;
+      text-align: center;
+      font-size: 11px;
+      border-top: 1px solid #555555;
+      border-bottom: 1px solid #2E2E2E;
+
+      a {
+        color: #CDCDCD;
+        background-image: -webkit-linear-gradient(top, rgba(86, 86, 86, 0.2) 0%, rgba(54, 54, 54, 0.2) 100%);
+        background-image: -moz-linear-gradient(top, rgba(86, 86, 86, 0.2) 0%, rgba(54, 54, 54, 0.2) 100%);
+        background-image: -o-linear-gradient(top, rgba(86, 86, 86, 0.2) 0%, rgba(54, 54, 54, 0.2) 100%);
+        background-image: -ms-linear-gradient(top, rgba(86, 86, 86, 0.2) 0%, rgba(54, 54, 54, 0.2) 100%);
+        background-image: linear-gradient(top, rgba(86, 86, 86, 0.2) 0%, rgba(54, 54, 54, 0.2) 100%);
+      }
+    };
+  }
+}
+
+#results {
+  height:100%;
+  background-color: #202020;
+  div, pre {
+    margin:0px;
+    padding:0px;
+    background:none;
+    border:none;
+
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+
+  .source {
+    margin-top:10px;
+    border-left:10px solid #d1d7d7;
+    pre {
+      padding-left:10px;
+      color: #b8b8b8;
+    }
+  }
+  .output {
+    border-left:10px solid #a8aeae;
+    pre {
+      color: #f3f3f3;
+      padding-left:10px;
+    }
+  }
+}
+
+
